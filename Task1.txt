@@ -1,0 +1,39 @@
+1.Fix the bugs in below snippet
+    <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+Solution :
+1.Fix the bugs in below snippet
+
+<html lang="en">
+    <head>
+        <title>Document
+            <body>(placed wrongly in header section)
+                guvi(placed wrongly it should be in body section
+			 In header tag we don't write the text to display>
+        </title>(should be placed immediately after the title name
+			Here it is Document>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>The div tag opened was not closed
+            <div>
+                Guvi Geek Network
+            </div>
+
+        </body>
+    </html>
+
